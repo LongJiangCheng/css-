@@ -7,6 +7,7 @@
 * focus 获得焦点时的外观,一般通过tab键来激活。
 * hover 鼠标放在链接上面时的外观
 * active 鼠标点下未散开时的外观
+* 建议使用以上顺序
 a:link{
 	color:red;
 }
@@ -24,3 +25,4 @@ a:active{
 	color:blue;
 }
 **/
+注：也可以对其它类型的元素使用：active和:hover伪类。
