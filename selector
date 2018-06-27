@@ -1,0 +1,14 @@
+
+
+
+
+
+
+按属性选择元素：
+  可以对具有给定属性或属性值的元素进行格式化。语法p[class="value"]{color:red;} 方括号包围目标属性和目标属性值
+  [attribute="value"]完全匹配指定属性值
+  [attribute~="value"]表示属性值包含"value"的元素被选中，此元素还可以包含其他的属性值。
+  [attribute|="value"]表示属性值包含"value"或以"value"开头的元素被选中。
+  [attribute^="value"]表示属性值以"value"开头(作为完整的单词，或单词的一部分)的元素被选中。
+  [attribute$="value"]表示属性值以"value"结尾(作为完整的单词，或单词的一部分)的元素被选中。
+  [attribute*="value"]表示属性值至少包含"value"一次的元素被选中。
