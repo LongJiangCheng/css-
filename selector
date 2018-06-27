@@ -12,3 +12,4 @@
   [attribute^="value"]表示属性值以"value"开头(作为完整的单词，或单词的一部分)的元素被选中。
   [attribute$="value"]表示属性值以"value"结尾(作为完整的单词，或单词的一部分)的元素被选中。
   [attribute*="value"]表示属性值至少包含"value"一次的元素被选中。
+对任何链接到站外页面的a元素添加rel="external"是非常好的习惯。
